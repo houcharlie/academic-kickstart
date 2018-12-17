@@ -55,7 +55,7 @@ f(x, W) = sum(W_{2}^{T}ReLU((W_{1} + I)^{T}x))
 $$
 
 
-We add the $$W_{2}$$ in front because ResNet has the same.  What I found was that the training error was able to reach zero (with Nesterov acceleration added this time; it converges to zero with normal SGD, just slower).  Note here that this time, we are talking about the training loss, not the distance between parameters this time.  This is because actually, the parameters do not recover the ground truth; but the parameters that we do recover give us zero training error.  This suggests that the local minima (at least the reachable ones) are also global minima.
+We add the $W_{2}$ in front because ResNet has the same.  What I found was that the training error was able to reach zero (with Nesterov acceleration added this time; it converges to zero with normal SGD, just slower).  Note here that this time, we are talking about the training loss, not the distance between parameters this time.  This is because actually, the parameters do not recover the ground truth; but the parameters that we do recover give us zero training error.  This suggests that the local minima (at least the reachable ones) are also global minima.
 
 
 {{< figure library="1" src="yuanzhiTwoWeight.png" title="" >}}
