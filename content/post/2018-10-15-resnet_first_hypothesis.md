@@ -32,13 +32,11 @@ I reproduced one of their experiments and found similar results
 In this experiment, we can see SGD smoothly making the error between the student weights and teacher weights approach zero.
 
 Obviously, one thing that we might wonder after their work is whether or not this works with one-block ResNets.  Recall one-block ResNets are the following architecture (we take the one-norm to make it consistent with Li et al.'s architecture):
-
 $$
 \begin{equation}
 f(x, W) = W_{2}^{T}ReLU((W_{1})^{T}x) + x 
 \end{equation}
 $$
-
 After all, the authors of the paper motivated their architecture by comparing it to ResNet and showing that it performs compariably.  So, why not study the original?  It turns out that nothing as convenient as the results they showed for their architecture is true for one-block ResNets:
 
 
@@ -53,7 +51,6 @@ $$
 f(x, W) = sum(W_{2}^{T}ReLU((W_{1} + I)^{T}x))
 \end{equation}
 $$
-
 
 We add the $W_{2}$ in front because ResNet has the same.  What I found was that the training error was able to reach zero (with Nesterov acceleration added this time; it converges to zero with normal SGD, just slower).  Note here that this time, we are talking about the training loss, not the distance between parameters this time.  This is because actually, the parameters do not recover the ground truth; but the parameters that we do recover give us zero training error.  This suggests that the local minima (at least the reachable ones) are also global minima.
 
