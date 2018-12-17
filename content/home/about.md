@@ -25,7 +25,7 @@ weight = 5
 [[education.courses]]
   course = "BSE, Operations Research and Financial Engineering"
   institution = "Princeton University"
-  year = Present
+  year = 2019
  
 +++
 
