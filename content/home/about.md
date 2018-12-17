@@ -31,4 +31,4 @@ weight = 5
 
 I'm a senior at Princeton University.  At school, I work on separate research projects advised by [Yuxin Chen](http://www.princeton.edu/~yc5/) and [Miklos Racz](http://mracz.princeton.edu/).  Articles I write will be placed in my own blog (posts) or in a group research [blog](https://kaledivergence.github.io/) that I've started with a few others.
 
-I like writing fiction, which will also be under posts.  I also like [cooking](https://youtu.be/ATmsipFdZQ4).  
+* I like writing fiction, which will also be under posts.  I also like [cooking](https://youtu.be/ATmsipFdZQ4).  
