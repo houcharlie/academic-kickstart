@@ -21,7 +21,7 @@ Machine Learning/Statistics/Optimization
 
 - ORF350: Applied Machine Learning Methods, Spring '17 
 - ORF524 (grad): Mathematical Statistics, Fall '17  
-- ELE538B (grad): Large-Scale Optimization for Data Science, Spring '18
+- ELE538B (grad): First-order Optimization Theory and Methods, Spring '18
 - ORF525 (grad): Statistical Learning Theory, Spring '18  
 - COS597G (grad): Foundations of Deep Learning Theory, Fall '18  
 
