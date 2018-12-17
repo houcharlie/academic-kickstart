@@ -267,10 +267,6 @@ enableGitInfo = false
     icon_pack = "fab"
     link = "https://www.linkedin.com/in/charlie-hou-027a19113/"
 
-  [[params.social]]
-    icon = "linkedin"
-    icon_pack = "fab"
-    link = ""
 
   [[params.social]]
     icon = "github"
