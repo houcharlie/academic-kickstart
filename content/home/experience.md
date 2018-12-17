@@ -25,7 +25,8 @@ date_format = "January 2006"
   location = "San Francisco"
   date_start = "2019-06-10"
   date_end = "2019-08-30"
-  description = """Computer vision research   
+  description = """
+  * Computer vision research   
   """
 [[experience]]
   title = "Model Risk Quant Intern"
@@ -35,9 +36,9 @@ date_format = "January 2006"
   date_start = "2018-05-29"
   date_end = "2018-08-12"
   description = """
-  -Improved mathematical rigor of CCAR stress-testing model by de-meaning random variables in the simulations
-  -Implemented model monitoring system to alert firm to unexpected behaviors in a loan model 
-  -Validated appropriateness of ML model for loan defaults by applying lossless dimension reduction  
+  * Improved mathematical rigor of CCAR stress-testing model by de-meaning random variables in the simulations
+  * Implemented model monitoring system to alert firm to unexpected behaviors in a loan model 
+  * Validated appropriateness of ML model for loan defaults by applying lossless dimension reduction  
   """
 
 [[experience]]
@@ -48,8 +49,8 @@ date_format = "January 2006"
   date_start = "2017-06-01"
   date_end = "2017-08-12"
   description = """
-  -Produced statistical analysis on workplace productivity  
-  -Used Microsoft HoloLens to produce 3D augmented reality visualizations of financial data"""
+  * Produced statistical analysis on workplace productivity  
+  * Used Microsoft HoloLens to produce 3D augmented reality visualizations of financial data"""
 
 [[experience]]
   title = "Summer Analyst"
