@@ -28,7 +28,7 @@ They did this by analyzing the gradient of the expected loss funciton between th
 
 I reproduced one of their experiments and found similar results
 <p style="text-align:center;">
-<img src="{{site.url}}/images/yuanzhi.png" width="300" alt="yuanzhi">
+<img src="https://houcharlie.github.io/static/img/yuanzhi.png" width="300" alt="yuanzhi">
 </p>  
 
 In this experiment, we can see SGD smoothly making the error between the student weights and teacher weights approach zero.
@@ -44,7 +44,7 @@ $$
 After all, the authors of the paper motivated their architecture by comparing it to ResNet and showing that it performs compariably.  So, why not study the original?  It turns out that nothing as convenient as the results they showed for their architecture is true for one-block ResNets:
 
 <p style="text-align:center;">
-<img src="{{site.url}}/images/resnet.png" width="300" alt="resnet">
+<img src="https://houcharlie.github.io/static/img/resnet.png" width="300" alt="resnet">
 </p>  
 
 
@@ -62,7 +62,7 @@ $$
 We add the $$W_{2}$$ in front because ResNet has the same.  What I found was that the training error was able to reach zero (with Nesterov acceleration added this time; it converges to zero with normal SGD, just slower).  Note here that this time, we are talking about the training loss, not the distance between parameters this time.  This is because actually, the parameters do not recover the ground truth; but the parameters that we do recover give us zero training error.  This suggests that the local minima (at least the reachable ones) are also global minima.
 
 <p style="text-align:center;">
-<img src="{{site.url}}/images/yuanzhiTwoWeight.png" width="300" alt="resnet">
+<img src="https://houcharlie.github.io/static/img/yuanzhiTwoWeight.png" width="300" alt="resnet">
 </p>  
 
 When it became apparent that this architecture had nice optimization properties, it was time to make the architecture even closer to a Resnet block.  So I looked at the following (note the one-norm or sum isn't there anymore): 
@@ -76,7 +76,7 @@ $$
 Note that this architecture has the same exact expressive power as a ResNet: they are functionally equivalent.  However, in terms of optimization, they are different.  For this modified ResNet, we saw a similar result as the architecture we tried out right above.  The training error went to zero, but we still do not recover the ground truth, suggesting that the local minima are global minima as well.
 
 <p style="text-align:center;">
-<img src="{{site.url}}/images/modresnet10.png" width="300" alt="resnet">
+<img src="https://houcharlie.github.io/static/img/modresnet10.png" width="300" alt="resnet">
 </p>  
 
 ## Conclusion
