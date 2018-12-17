@@ -12,8 +12,6 @@ list_format = 2
 [header]
 image = ""
 caption = ""
-math = true
-summary = " "
 +++
 
 This is an investigation inspired by this [paper](https://arxiv.org/pdf/1705.09886.pdf) which gave the first detailed convergence analysis of a neural network architecture with ReLU activations without certain independence assumptions that are not seen in practice.  In a few words, Li et al. analyzed the following architecture:
@@ -32,11 +30,13 @@ I reproduced one of their experiments and found similar results
 In this experiment, we can see SGD smoothly making the error between the student weights and teacher weights approach zero.
 
 Obviously, one thing that we might wonder after their work is whether or not this works with one-block ResNets.  Recall one-block ResNets are the following architecture (we take the one-norm to make it consistent with Li et al.'s architecture):
+
 $$
 \begin{equation}
 f(x, W) = W_{2}^{T}ReLU((W_{1})^{T}x) + x 
 \end{equation}
 $$
+
 After all, the authors of the paper motivated their architecture by comparing it to ResNet and showing that it performs compariably.  So, why not study the original?  It turns out that nothing as convenient as the results they showed for their architecture is true for one-block ResNets:
 
 
