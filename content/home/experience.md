@@ -19,27 +19,30 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  title = "Model Risk Quant Intern"
+  company = "Goldman Sachs"
+  company_url = "https://www.goldmansachs.com/"
+  location = "NYC"
+  date_start = "2018-05-29"
+  date_end = "2018-08-12"
+  description = """Improved mathematical rigor of CCAR stress-testing model by de-meaning random variables in the simulations.  Implemented model monitoring system to alert firm to unexpected behaviors in a loan model.  Validated appropriateness of ML model for loan defaults by applying lossless dimension reduction.   
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "SWE Intern"
+  company = "BNY Mellon"
+  company_url = "https://www.bnymellon.com/us/en/home.jsp"
+  location = "NYC"
+  date_start = "2017-06-01"
+  date_end = "2017-08-12"
+  description = """Produced statistical analysis on workplace productivity.  Used Microsoft HoloLens to produce 3D augmented reality visualizations of financial data."""
 
+[[experience]]
+  title = "Summer Analyst"
+  company = "Evyavan Advisory Services"
+  company_url = "http://www.evyavan.com/"
+  location = "Somerset, NJ"
+  date_start = "2016-06-01"
+  date_end = "2017-08-01"
+  description = """Recommended adjustments to stock portfolios as well as real estate portfolios."""
 +++

@@ -50,3 +50,21 @@ filter_default = 0
 
 +++
 
+### Interpolated peeling: new learning algorithms for vertex order recovery (ongoing)
+
+This project is advised by [Professor Miklos Racz](http://mracz.princeton.edu/).  We
+want to give a more precise characterization of the algorithm proposed [here](https://pdfs.semanticscholar.org/043a/4b15b8f563002e1d1e3ee8dea5eed9aa26ca.pdf) for vertex order recovery in random graphs.  
+
+### Convergence analysis of one-block ResNets (ongoing)
+
+This project is advised by [Professor Yuxin Chen](http://www.princeton.edu/~yc5/).  We want to understand the behavior of of stochastic gradient descent on one-block ResNets.  All the code used for the investigation is [here](https://github.com/houcharlie/resnet_convergence).  
+
+
+### "Acceleration" via depth in neural networks
+
+Two of my friends, [Hrishikesh Khandeparkar](http://www.cs.princeton.edu/~hrk/index.html) and [Gene Li](https://gxli97.github.io/), and I worked on a project studying the effect of additional depth on deep learning as a follow-up to this [paper](https://arxiv.org/pdf/1802.06509.pdf).  
+
+
+### WallStreetBets
+
+We used posts from a subreddit as signal to trade stocks.  The results are in this [repository](https://github.com/houcharlie/WallStreetBets).  
