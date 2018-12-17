@@ -36,9 +36,9 @@ date_format = "January 2006"
   date_start = "2018-05-29"
   date_end = "2018-08-12"
   description = """
-  * Improved mathematical rigor of CCAR stress-testing model by de-meaning random variables in the simulations
-  * Implemented model monitoring system to alert firm to unexpected behaviors in a loan model 
-  * Validated appropriateness of ML model for loan defaults by applying lossless dimension reduction  
+  * Improved mathematical rigor of CCAR stress-testing model by de-meaning random variables in simulations
+  * Implemented model monitoring system to alert firm to model breakage
+  * Validated appropriateness of ML model for loan defaults by losslessly reducing dimension of data
   """
 
 [[experience]]
