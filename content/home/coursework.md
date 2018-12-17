@@ -14,7 +14,7 @@ subtitle = ""
 weight = 60
 
 +++
-(Grad) denotes a graduate level course.
+(grad) denotes a graduate level course.
 
 Machine Learning/Statistics/Optimization:
 
