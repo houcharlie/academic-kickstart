@@ -1,5 +1,5 @@
 +++
-title = "Posts"
+title = "A modified ResNet architecture with nice optimization properties"
 date = 2018-10-15T00:00:00
 
 # List format.
