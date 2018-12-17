@@ -13,7 +13,7 @@ subtitle = ""
 # Order that this section will appear in.
 weight = 60
 
-+++
+
 (grad) denotes a graduate level course.
 
 Machine Learning/Statistics/Optimization:
@@ -32,3 +32,4 @@ Computer Science:
 - COS226: Algorithms and Data Structures, Fall '16  
 - COS326: Functional Programming, Fall '16  
 - COS217: Intro to Programming Systems, Spring '17  
++++
