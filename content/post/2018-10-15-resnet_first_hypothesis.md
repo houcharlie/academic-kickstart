@@ -12,6 +12,8 @@ list_format = 2
 [header]
 image = ""
 caption = ""
+math = true
+summary = ""
 +++
 
 This is an investigation inspired by this [paper](https://arxiv.org/pdf/1705.09886.pdf) which gave the first detailed convergence analysis of a neural network architecture with ReLU activations without certain independence assumptions that are not seen in practice.  In a few words, Li et al. analyzed the following architecture:
