@@ -1,8 +1,18 @@
----
-layout: post
-title: A modified ResNet architecture with nice optimization properties
-permalink: /blog/:title
----
++++
+title = "Posts"
+date = 2018-10-15T00:00:00
+
+# List format.
+#   0 = Simple
+#   1 = Detailed
+#   2 = Stream
+list_format = 2
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = ""
+caption = ""
++++
 
 This is an investigation inspired by this [paper](https://arxiv.org/pdf/1705.09886.pdf) which gave the first detailed convergence analysis of a neural network architecture with ReLU activations without certain independence assumptions that are not seen in practice.  In a few words, Li et al. analyzed the following architecture:
 
