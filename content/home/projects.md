@@ -61,7 +61,7 @@ filter_default = 0
 
 ### "Acceleration" via depth in neural networks
 
-[Hrishikesh Khandeparkar](http://www.cs.princeton.edu/~hrk/index.html) and [Gene Li](https://gxli97.github.io/), and I worked on a project studying the effect of additional depth on deep learning.
+[Hrishikesh Khandeparkar](http://www.cs.princeton.edu/~hrk/index.html), [Gene Li](https://gxli97.github.io/), and I worked on a project studying the effect of additional depth on deep learning.
 
 
 ### WallStreetBets
