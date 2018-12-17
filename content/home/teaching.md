@@ -15,4 +15,4 @@ weight = 60
 
 +++
 
-- McGraw Tutor (General Physics)[https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=009759&term=1192] and (Multivariable Calculus)[https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=009760&term=1192]
+- McGraw Tutor for [General Physics](https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=009759&term=1192) and [Multivariable Calculus](https://registrar.princeton.edu/course-offerings/course_details.xml?courseid=009760&term=1192)
