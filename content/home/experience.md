@@ -34,7 +34,10 @@ date_format = "January 2006"
   location = "NYC"
   date_start = "2018-05-29"
   date_end = "2018-08-12"
-  description = """Improved mathematical rigor of CCAR stress-testing model by de-meaning random variables in the simulations.  Implemented model monitoring system to alert firm to unexpected behaviors in a loan model.  Validated appropriateness of ML model for loan defaults by applying lossless dimension reduction.   
+  description = """
+  -Improved mathematical rigor of CCAR stress-testing model by de-meaning random variables in the simulations
+  -Implemented model monitoring system to alert firm to unexpected behaviors in a loan model 
+  -Validated appropriateness of ML model for loan defaults by applying lossless dimension reduction  
   """
 
 [[experience]]
@@ -44,7 +47,9 @@ date_format = "January 2006"
   location = "NYC"
   date_start = "2017-06-01"
   date_end = "2017-08-12"
-  description = """Produced statistical analysis on workplace productivity.  Used Microsoft HoloLens to produce 3D augmented reality visualizations of financial data."""
+  description = """
+  -Produced statistical analysis on workplace productivity  
+  -Used Microsoft HoloLens to produce 3D augmented reality visualizations of financial data"""
 
 [[experience]]
   title = "Summer Analyst"
@@ -53,5 +58,5 @@ date_format = "January 2006"
   location = "Somerset, NJ"
   date_start = "2016-06-01"
   date_end = "2017-08-01"
-  description = """Recommended adjustments to stock portfolios as well as real estate portfolios."""
+  description = """Recommended adjustments to stock portfolios as well as real estate portfolios"""
 +++
