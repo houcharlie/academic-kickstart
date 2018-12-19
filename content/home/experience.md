@@ -58,7 +58,7 @@ date_format = "January 2006"
   company_url = "http://www.evyavan.com/"
   location = "Somerset, NJ"
   date_start = "2016-06-01"
-  date_end = "2017-08-01"
+  date_end = "2016-08-01"
   description = """
   * Recommended adjustments to stock portfolios as well as real estate portfolios"""
 +++

@@ -52,13 +52,13 @@ filter_default = 0
 
 ### Current Projects
 
-[Professor Miklos Racz](http://mracz.princeton.edu/) and I are working on new algorithms and theoretical guarantees for algorithms that retreive temporal information in random graphs.
+* [Professor Miklos Racz](http://mracz.princeton.edu/) and I are working on new algorithms and theoretical guarantees for algorithms that retreive temporal information in random graphs.
 
-[Professor Yuxin Chen](http://www.princeton.edu/~yc5/) and I are working on analyzing the optimization landscape of simple ResNets.  
+* [Professor Yuxin Chen](http://www.princeton.edu/~yc5/) and I are working on analyzing the optimization landscape of simple ResNets.  
 
 
 ### Past Projects
 
-[Hrishikesh Khandeparkar](http://www.cs.princeton.edu/~hrk/index.html), [Gene Li](https://gxli97.github.io/), and I worked on a project studying the effect of additional depth on deep learning.
+* [Hrishikesh Khandeparkar](http://www.cs.princeton.edu/~hrk/index.html), [Gene Li](https://gxli97.github.io/), and I worked on a project studying the effect of additional depth on deep learning.
 
-We used posts from a subreddit as signal to trade stocks.  The results are in this [repository](https://github.com/houcharlie/WallStreetBets).  
+* Some friends and I used posts from a subreddit as signal to trade stocks.  The results are in this [repository](https://github.com/houcharlie/WallStreetBets).  
