@@ -52,7 +52,7 @@ filter_default = 0
 
 ### Current Projects
 
-* [Professor Miklos Racz](http://mracz.princeton.edu/) and I are working on new algorithms and theoretical guarantees for algorithms that retreive temporal information in random graphs.
+* [Professor Miklos Racz](http://mracz.princeton.edu/) and I are working on new algorithms and theoretical guarantees for algorithms that retrieve temporal information in random graphs.
 
 * [Professor Yuxin Chen](http://www.princeton.edu/~yc5/) and I are working on analyzing the optimization landscape of simple ResNets.  
 
